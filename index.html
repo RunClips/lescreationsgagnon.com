@@ -312,17 +312,48 @@ footer a:hover{color:var(--wood)}
 @media(max-width:900px){
   .nav-links a:not(.nav-cta){display:none}
   .hero{grid-template-columns:1fr;min-height:auto}
-  .hero-right{height:50vw;min-height:260px}
-  .about-grid,.contact-grid,.region-inner{grid-template-columns:1fr;gap:3rem}
+  .hero-left{padding:2.5rem 1.5rem 2rem}
+  .hero-right{height:55vw;min-height:240px}
+  .about-grid,.contact-grid,.region-inner{grid-template-columns:1fr;gap:2.5rem}
   .region-logo{display:none}
   .gallery{grid-template-columns:repeat(2,1fr)}
   .gallery-item.tall{grid-row:span 1;aspect-ratio:4/3}
   .about-badge{right:0;bottom:-10px}
   .form-row{grid-template-columns:1fr}
+  .services-grid{grid-template-columns:1fr 1fr}
+  .ribbon{gap:1.5rem;padding:14px 1rem}
+  .ribbon-item{font-size:.78rem}
+  section{padding:3rem 1.25rem}
 }
-@media(max-width:560px){
-  .hero-stats{flex-wrap:wrap;gap:1.5rem}
+@media(max-width:600px){
+  nav{padding:0 1rem;height:64px}
+  .nav-logo img{height:44px;width:44px}
+  .nav-brand{font-size:1rem}
+  .nav-cta{padding:7px 14px!important;font-size:.8rem!important}
+  .hero-left{padding:2rem 1.25rem 1.5rem}
+  .hero-badge{font-size:.65rem;padding:5px 10px}
+  .hero-left h1{font-size:2rem}
+  .hero-sub{font-size:.92rem}
+  .hero-actions{flex-direction:column}
+  .btn-primary,.btn-secondary{width:100%;justify-content:center;padding:13px 20px}
+  .hero-stats{flex-wrap:wrap;gap:1.25rem;padding-top:1.5rem;margin-top:1.5rem}
+  .stat-num{font-size:1.6rem}
+  .hero-right{height:60vw;min-height:200px}
+  .hero-logo-overlay img{width:140px}
+  .ribbon{flex-direction:column;align-items:flex-start;gap:.75rem;padding:1rem 1.25rem}
+  .services-grid{grid-template-columns:1fr}
+  .service-card{padding:1.75rem 1.25rem}
   .gallery{grid-template-columns:1fr}
+  .gallery-item.tall{grid-row:span 1;aspect-ratio:4/3}
+  .section-title{font-size:1.6rem}
+  .about-img img{border-radius:4px}
+  .about-badge{position:static;margin-top:1rem;display:inline-flex;gap:.75rem;padding:14px 20px}
+  .about-badge strong{font-size:1.5rem}
+  .contact-form{padding:1.5rem 1.25rem}
+  .region-chips{gap:8px}
+  .chip{font-size:.75rem;padding:6px 14px}
+  section{padding:2.5rem 1.25rem}
+  .hero-stats .stat-item{min-width:30%}
 }
 </style>
 </head>
